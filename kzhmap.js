@@ -17,37 +17,37 @@ optionsList.forEach(o => {
 function m1(){
 m1 = document.querySelector('.options1')
 m1.addEventListener('click',() =>{
-  window.location.href="map1.html"
+  window.location.href="kzh1.html"
 });
 }
 function m2(){
 m2= document.querySelector('.options2')
 m2.addEventListener('click',() =>{
-  window.location.href="map2.html"
+  window.location.href="kzh2.html"
 });
 }
 function m3(){
 m3= document.querySelector('.options3')
 m3.addEventListener('click',() =>{
-  window.location.href="map3.html"
+  window.location.href="kzh3.html"
 });
 }
 function m4(){
 m4= document.querySelector('.options4')
 m4.addEventListener('click',() =>{
-  window.location.href="map4.html"
+  window.location.href="kzh4.html"
 });
 }
 function m5(){
 m5= document.querySelector('.options5')
 m5.addEventListener('click',() =>{
-  window.location.href="map5.html"
+  window.location.href="kzh5.html"
 });
 }
 function m6(){
 m6= document.querySelector('.options6')
 m6.addEventListener('click',() =>{
-  window.location.href="map6.html"
+  window.location.href="kzh6.html"
 });
 }
 

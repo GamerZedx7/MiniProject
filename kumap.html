@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bus select</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animate.css">
+    <style>
+       body{
+            background-image:url('img/sx.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    
+
+<section class="next">
+    <div class="container1" style="margin-left: 368px;top: 0;margin-top: 9px;left: 0;position: absolute;">
+        <iframe id="myiframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.3877819604254!2d76.85727171432421!3d8.558658698535544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05be4db228e865%3A0x86e82fcb1e3e3ad0!2sMarian%20Engineering%20College!5e0!3m2!1sen!2sin!4v1657901507668!5m2!1sen!2sin"
+            width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="select" style="margin-left: 432px;margin-top: 380px;position: absolute;top: 0;">
+        <!-- <h2>Location</h2> -->
+        <div class="selectbox">
+            <div class="optionsbox" style="width:150px ; align-self: center;">
+                    <div class="options1" style="padding:8px ;">
+                        <input type="radio" class="radio" id="auto2" name="category">
+                        <label for="auto2" onclick="m1()">3</label>
+                    </div>
+            </div>
+            <div class="selected" style="width:150px; align-self: center;">
+                Bus Number
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="kumap.js"></script>
+    
+    <div class="animate">
+           <!-- <video src="img/gs.mp4" muted loop autoplay></video> -->
+    </div>
+</body>
+</html>
